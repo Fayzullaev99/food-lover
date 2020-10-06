@@ -1,0 +1,345 @@
+:root{
+    --yellow:#e58f00;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+body, html{
+    font-family: 'aachen';
+    scroll-behavior: smooth;
+}
+.header{
+    min-height: 100vh;
+    background: url(../images/header__bg.png) center/cover no-repeat;
+}
+.header_alpha{
+    background: rgba(0, 0, 0, 0.9);
+    min-height: 100vh;
+    width: 100%;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+    padding-top: 35px;
+}
+.header__list{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.header__link{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    font-family: 'aachen';
+    color: white;
+}
+.header__link:hover{
+    color: var(--yellow);
+}
+.header__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__left_img{
+    width: 630px;
+    height: 488px;
+    margin-left: 50px;
+    margin-bottom: 115px;
+    margin-right: 55px;
+}
+.header__right{
+    width: 520px;
+    height: 360px;
+}
+.header__title{
+    color: var(--yellow);
+    font-size: 67px;
+    font-family: 'aachen';
+    margin-bottom: 35px;
+}
+.header__text{
+    color: white;
+    font-size: 25px;
+    font-family: 'aachen';
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.header__contact{
+    width: 200px;
+    height: 70px;
+    background: var(--yellow);
+    color: #28282d;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.header__contact:hover{
+    color: white;
+}
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+.main{
+    background: #1d1d23;
+}
+.main__top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 120px;
+    align-items: center;
+    padding-bottom: 195px;
+}
+.main__img{
+    width: 500px;
+    height: 500px;
+}
+.main__right{
+    width: 530px;
+    height: 395px;
+}
+.man__title{
+    color: white;
+    font-size: 50px;
+    font-family: 'aachen';
+    margin-bottom: 30px;
+}
+.main_text{
+    font-size: 33px;
+    color: white;
+    font-family: 'aachen';
+}
+/* ===================================================================== */
+/* ===================================================================== */
+/* ===================================================================== */
+.main__content{
+    background: url(../images/main_Shape.png) no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.main__content__right, .main__content__center{
+   align-self: flex-end; 
+}
+.main__content_right_img{
+    margin-top: -75px;
+    width: 500px;
+    height: 550px;
+}
+.main__content_center_img{
+    width: 770px;
+    height: 900px;
+    margin-top: -200px;
+}
+.main__content__item{
+    width: 525px;
+    height: 365px;
+    margin-left: 25px;
+}
+.main__content__title{
+    color: white;
+    font-size: 50px;
+    font-family: 'aachen';
+    margin-bottom: 33px;
+}
+.main__content__text{
+    color: white;
+    font-size: 33px;
+    font-family: 'aachen';
+}
+.main__content_left_img{
+    width: 500px;
+    margin-top: -450px;
+}
+/* =================================================================== */
+/* =================================================================== */
+/* =================================================================== */
+.gallery{
+    padding: 170px 15px;
+}
+.section__title{
+    color: white;
+    margin-bottom: 100px;
+    font-size: 50px;
+    font-family: 'aachen';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    justify-content: space-around;
+}
+.section__img{
+    width: 100%;
+}
+.section__img:hover{
+    border: 1px solid var(--yellow);
+}
+/* ==================================================================== */
+/* ==================================================================== */
+/* ==================================================================== */
+.our_food{
+    background: url(../images/section_our_food_bg.png) center/cover no-repeat;
+    width: 100%;
+    height: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__block{
+    width: 725px;
+    height: 570px;
+    border: 10px solid var(--yellow);
+    text-align: center;
+    padding:80px 90px;
+}
+.our_food__title{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+.section__text{
+    font-size: 33px;
+    color: white;
+}
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+.section_menu__title{
+    margin-top: 88px;
+    margin-bottom: 180px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.menu__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu__item{
+    width: 410px;
+    height: 600px;
+}
+.menu__img{
+    margin-bottom: 45px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.menu__img:hover{
+    border: 2px solid var(--yellow);
+}
+.menu__name{
+    color: var(--yellow);
+    font-size: 28.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.section_menu__text{
+    font-size: 17px;
+    color: white;
+    line-height: 21px;
+    text-align: center;
+}
+/* ==================================================================================== */
+.menu__footer{
+    background: #e58f00;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.menu__footer_left{
+    margin-top: -65px;
+    margin-bottom: -65px;
+    margin-right: 60px;
+}
+.menu__footer_right{
+    width: 530px;
+    height: 245px;
+}
+.menu__footer__title{
+    color: white;
+    font-size: 50px;
+}
+.menu__fotter__text{
+    color: white;
+    font-size: 33px;
+}
+/* ===================================================================================== */
+/* ===================================================================================== */
+/* ===================================================================================== */
+/* ===================================================================================== */
+/* ===================================================================================== */
+.footer{
+    background: #35353b;
+    padding-top: 65px;
+}
+.footer__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.footer__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.footer__link{
+    color: #e7e6e6;
+    font-size: 21px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.footer__link:hover{
+    color: var(--yellow);
+}
+.footer__contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer__contact__item{
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-bottom: 10px;
+}
+.footer__contact__item:hover{
+    border-radius: 100%;
+    background: rgb(78, 4, 78);
+}
